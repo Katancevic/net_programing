@@ -7,4 +7,3 @@ print(f"Request method: POST, Response status_code: {req.status_code} Response d
 
 req = requests.delete("http://127.0.0.1:8080/", params = {"name":"ivan".lower()})
 print(f"Request method: DELETE, response status_code: {req.status_code}, Response data: {req.text}")
-
